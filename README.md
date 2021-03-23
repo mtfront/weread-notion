@@ -1,5 +1,6 @@
 # 微信读书笔记 Notion 转换器
 这是一个由椒盐豆豉开发的简单微信读书笔记转换为 Notion table 的小工具。
+因为最近开始做[读书笔记剪报 channel](https://t.me/mtfront)，因此需要一些排序、过滤功能，以前偷懒直接纯文本粘贴的微信读书笔记就不好使了。索性写了个 script.
 
 *** ***本 script 仅在 MacOS 上测试过，Windows 不知道有没有问题，就算有我猜轻微改一下能用，如果有试了的朋友欢迎告诉我。*** ***
 
@@ -26,6 +27,7 @@
 
 # weread-notion
 This is a simple script created by Mt Front that converts Weread notes export to a csv, so it can be import to Notion into a table.
+Made for [my reading notes channel](https://t.me/mtfront) because filtering and sorting is just much more easier this way.
 
 *** ***Warning: This script has only been tested on MacOS. If you're using Windows please let me know if it works.*** ***
 
