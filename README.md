@@ -1,12 +1,14 @@
 # 微信读书笔记 Notion 转换器
 这是一个由椒盐豆豉开发的简单微信读书笔记转换为 Notion table 的小工具。
 
-*** ***注意：本 script 仅在 MacOS 上测试过*** ***
+*** ***本 script 仅在 MacOS 上测试过，Windows 不知道有没有问题，就算有我猜轻微改一下能用，如果有试了的朋友欢迎告诉我。*** ***
 
 ## Notion 最终效果：
 | Name | Highlight | Note | No. |
 | --- | --- | --- | --- |
 |章节名|你的高亮/划线|你的笔记/想法|用来排序的序号|
+
+变成在 notion 的表格之后后续可以导出、自己加新 field 排序、filter 等，配合其他工具使用参见之前这篇中的效果：[读书笔记 workflow。](https://blog.douchi.space/?p=1134#reading)
 
 ## 如何使用
 0. 用 git clone 下载基本代码到你的 Mac 上
@@ -25,7 +27,7 @@
 # weread-notion
 This is a simple script created by Mt Front that converts Weread notes export to a csv, so it can be import to Notion into a table.
 
-*** ***Warning: This script has only been tested on MacOS*** ***
+*** ***Warning: This script has only been tested on MacOS. If you're using Windows please let me know if it works.*** ***
 
 ## Output table format in Notion:
 
