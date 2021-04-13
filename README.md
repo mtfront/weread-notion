@@ -16,7 +16,7 @@
 1. 进入微信读书->笔记，点击“导出”
 2. 点击底部的“复制到剪切板”
 3. 把剪贴板内容粘贴进一个 txt 文件
-4. 在 Mac terminal 里 `weread.py [txt 文件地址]`来运行本工具，生成一个 csv 文件
+4. 在 Mac terminal 里 `python3 weread.py [txt 文件地址]`来运行本工具，生成一个 csv 文件
 5. 在 Notion 里创建一个数据库
 6. 点击数据库右上角的'...'，选择'Merge with CSV'
 7. 等待导入结束并刷新 Notion 页面
@@ -43,7 +43,7 @@ Made for [my reading notes channel](https://t.me/mtfront) because filtering and 
 1. In Weread, go into your notes, click "export"
 2. Click "Copy to clipboard” on the bottom
 3. Paste the copied notes into a txt file.
-4. Run this script by typing 'weread.py [txt file path]' in termincal, the script will create a csv file
+4. Run this script by typing 'python3 weread.py [txt file path]' in termincal, the script will create a csv file
 5. In Notion, create a table (can be either inline or entire page)
 6. Click the '...' on right top cornor of your table, chose "Merge with CSV"
 7. Wait for import to complete and refresh the notion page
